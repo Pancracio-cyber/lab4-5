@@ -1,0 +1,12 @@
+{
+    "name": "Jest tests",
+    "type": "node",
+    "request": "launch",
+    //"port": 9229,
+    //"preLaunchTask": "func: host start"
+    "program": "${workspaceRoot}/node_modules/jest/bin/jest.js",
+    "args": [
+        "-1"
+    ],
+    "internalConsoleOptions": "openOnSessionStart"
+}
